@@ -24,8 +24,8 @@ const NavBar2 = ({setList,list}) => {
                 {...register('email',{required:true})}
             
                 />
-                  {errors.email && <span className='text-danger'>This field is required</span>}
-            <label forHtml="floatingInput">Email address</label>
+                  {errors.email && <span className='text-danger'>Debe ingresar Email</span>}
+            <label htmlFor="floatingInput">Email</label>
         </div>
         <div class="form-floating">
             <input 
@@ -35,7 +35,7 @@ const NavBar2 = ({setList,list}) => {
                 placeholder="Password"
                 {...register('password',{required:true})}
                 />
-                {errors.password && <span className='text-danger'>This field is required</span>}
+                {errors.password && <span className='text-danger'>Debe ingresar password</span>}
             <label for="floatingPassword">Password</label>
         </div>
         <input 

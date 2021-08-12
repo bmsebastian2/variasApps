@@ -15,7 +15,7 @@ const Navbar = () => {
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav">
+                <ul className="navbar-nav text-center">
                   <li className="nav-item">
                     <Link className="nav-link active" aria-current="page" to="/5">5 (Array)</Link>
                   </li>
@@ -32,7 +32,7 @@ const Navbar = () => {
                     <Link className="nav-link" to="/crudHook">10 (Aplicación CRUD)</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/figma">9 (figma)</Link>
+                    <Link className="nav-link" to="/figma">11 (figma)</Link>
                   </li>
                 </ul>        
             
