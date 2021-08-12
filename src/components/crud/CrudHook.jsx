@@ -77,10 +77,7 @@ const CrudHook = () => {
             </div>
             
             
-            
-            <button className="btn btn-primary" onClick={()=>console.log(personaList)}>Imprime la LISTA PERSONA</button>
-            <button className="btn btn-primary" onClick={()=>console.log(persona)}>OBJETO PERSONA</button>
-            <button className="btn btn-primary" onClick={()=>console.log(edit)}>EDIT</button>
+         
         </div>
     )
 }
