@@ -1,0 +1,18 @@
+.contenedorCard{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: linear-gradient(244.8deg, #0FFCD1 14.65%, rgba(28, 168, 218, 0.598958) 59.9%, #3B69F5 90.47%);
+    border-radius: 3px;
+    margin: 8px;
+    padding: 8px;
+}
+.nuevoUsuario{
+    color: #3B69F5;
+
+}
+.nuevoUsuario:hover{
+    color:red;
+    font-weight: bold;
+
+}
