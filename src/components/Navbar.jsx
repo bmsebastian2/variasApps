@@ -34,6 +34,9 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link className="nav-link" to="/figma">11 (Router / Wouter)</Link>
                   </li>
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/fetch">12 (Fetch)</Link>
+                  </li>
                 </ul>        
             
               </div>

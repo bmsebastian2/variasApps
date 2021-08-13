@@ -33,8 +33,11 @@ const Figma = () => {
     return (
         <div>
   
-            
+                <div className=" text-success text-center">
+                    <p className="display-6">#11 😍 Router</p>
+                </div>
             <div className="contenedoRouter">
+                
     
                 <div className="cont1 cont">display1</div>
                 <div className=""></div>
@@ -64,7 +67,7 @@ const Figma = () => {
                 </div>
             
             
-                <div className="cont cont4">display4</div>
+                <div className="cont cont4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi at enim dicta error, repellat eveniet hic deserunt ducimus voluptate sunt!</div>
                 <div className=""></div>
                 <div className="cont cont5">display5</div>
      

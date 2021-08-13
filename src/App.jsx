@@ -13,6 +13,7 @@ import Formulario from './components/formulario/Formulario';
 import FormHook from './components/formHook/FormHook';
 import   CrudHook from './components/crud/CrudHook'
 import Figma from './components/figma/Figma';
+import Fetch  from './components/fetch/Fetch'
 
 
 
@@ -45,12 +46,19 @@ function App() {
                               path='/figma'>
                               <Figma/>
                           </Route>
+
+                          <Route 
+                              path='/fetch'>
+                              <Fetch/>
+                          </Route>
                         
                           <Route 
                               path='/'>
                                 <Bienvenida/>
                           </Route>
-                          #05 Curso de React Hooks [ Práctica #1 ]
+
+                         
+                          
                 </Switch>
         
         </header>
