@@ -32,7 +32,7 @@ const Navbar = () => {
                     <Link className="nav-link" to="/crudHook">10 (Aplicación CRUD)</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/figma">11 (figma)</Link>
+                    <Link className="nav-link" to="/figma">11 (Router / Wouter)</Link>
                   </li>
                 </ul>        
             

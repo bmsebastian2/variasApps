@@ -1,85 +1,53 @@
-.fragmen{
+.contenedoRouter{
+
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* grid-template-rows: repeat(6,1fr); */
     
-position: relative;
-width: 611px;
-height: 347px;
-
-
-background: linear-gradient(253.06deg, #0FFCD1 0.46%, rgba(28, 168, 218, 0.598958) 60.12%, #3B69F5 100.44%);
-}
-.rectangulo1{
-    position: absolute;
-    width: 229px;
-    height: 102px;
-    left: 294.5px;
-    top: 35px;
-
-    background: linear-gradient(115.75deg, rgba(252, 248, 248, 0.8) -17.69%, rgba(252, 248, 248, 0) 79.92%);
-    backdrop-filter: blur(16px);
-/* Note: backdrop-filter has minimal browser support */
-
-    border-radius: 3px;
-
-
 
 
 }
-.rectangulo2{
-    position: absolute;
-    width: 211px;
-    height: 99px;
-    left: 294.5px;
-    top: 35px;
+.cont{
+    border: 1px solid black;
+    padding: 1em;
 
-    background: linear-gradient(115.75deg, #FCF8F8 1.19%, rgba(252, 248, 248, 0) 98.81%);
+}
+.cont1{
+  grid-column: 1/6;
+  height: 25vh;
+  /* grid-auto-rows: minmax(50px, 10px); */
+
+}
+.cont2{
+    grid-column: 1/2;
     
+  
+  
+  }
+.cont3{
+    grid-column: 2/5;
+    background: blue;
+  
+  }
+  .cont4{
     
-}
-.rectangulo5{
-    position: absolute;
-    width: 203.5px;
-    height: 94px;
-    left: 294.5px;
-    top: 35px;
+    background: burlywood;
+  
+  
+  }
+  .cont5{
+    
+    grid-column: 1/6;
+  
+  
+  }
+  .menu{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
-background: linear-gradient(244.8deg, #0FFCD1 14.65%, rgba(28, 168, 218, 0.598958) 59.9%, #3B69F5 90.47%);
-border-radius: 3px;
-transform: matrix(-1, 0, 0, 1, 0, 0);
-
-
-
-}
-.rectangulo6{
-    position: absolute;
-width: 42px;
-height: 52px;
-left: 54px;
-top: 47px;
-
-background: rgba(64, 28, 255, 0.8);
-border-radius: 3px;
-
-
-}
-.rectangulo7{
-    position: absolute;
-    left: 129.5px;
-    top: 80px;
-    left: 294.5px;
-    width: 129px;
-
-    background: #FFF9F9;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-}
-.rectangulo8{
-    position: absolute;
-    width: 129px;
-    height: 17px;
-    left: 294.5px;
-    top: 35px;
-
-    background: #FFF9F9;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-}
+  }
+  button{
+      margin: 1em;
+  }

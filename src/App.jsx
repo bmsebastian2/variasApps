@@ -7,6 +7,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Link
 } from "react-router-dom";
 import Formulario from './components/formulario/Formulario';
 import FormHook from './components/formHook/FormHook';
@@ -19,39 +20,39 @@ function App() {
   return (
     <div className="App container border">
       <header className="App-header">
-      <Router>
-          <Navbar/>
-        <Switch>
-              <Route 
-                path='/5'>
-                <Array/>         
-              </Route>
-              <Route 
-                   path='/formulario'>
-                   <Formulario/>
-              </Route>
-              <Route 
-                    path='/formHook'>
-                   <FormHook/>
-              </Route>
-            
-              <Route 
-                   path='/crudHook'>
-                  <CrudHook/>
-              </Route>
+    
+                <Navbar/>
+                <Switch>
+                          <Route 
+                            path='/5'>
+                            <Array/>         
+                          </Route>
+                          <Route 
+                              path='/formulario'>
+                              <Formulario/>
+                          </Route>
+                          <Route 
+                                path='/formHook'>
+                              <FormHook/>
+                          </Route>
+                        
+                          <Route 
+                              path='/crudHook'>
+                              <CrudHook/>
+                          </Route>
 
-              <Route 
-                   path='/figma'>
-                  <Figma/>
-              </Route>
-             
-              <Route 
-                   path='/'>
-                    <Bienvenida/>
-              </Route>
-              #05 Curso de React Hooks [ Práctica #1 ]
-          </Switch>
-        </Router>
+                          <Route 
+                              path='/figma'>
+                              <Figma/>
+                          </Route>
+                        
+                          <Route 
+                              path='/'>
+                                <Bienvenida/>
+                          </Route>
+                          #05 Curso de React Hooks [ Práctica #1 ]
+                </Switch>
+        
         </header>
          
     </div>
